@@ -1,11 +1,9 @@
-/** @format */
-
+import React from 'react';
 import {
+    Text,
     AppRegistry
 } from 'react-native';
-import App from './App';
-import {
-    name as appName
-} from './app.json';
 
-AppRegistry.registerComponent(appName, () => App);
+const App = () => (<Text> hello </Text>);
+
+AppRegistry.registerComponent('albums', () => App);
