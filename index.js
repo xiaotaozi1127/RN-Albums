@@ -5,6 +5,6 @@ import {
 
 import Header from './src/components/header';
 
-const App = () => <Header />;
+const App = () => <Header headerText={'Albums'} />;
 
 AppRegistry.registerComponent('albums', () => App);
