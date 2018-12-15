@@ -34,7 +34,7 @@ const AlbumDetail = ({ record }) => {
         </CardSection>
 
         <CardSection>
-            <Button />
+            <Button onPress={() => console.log(title)} text='Buy it' />
         </CardSection>
     </Card>);
 };
